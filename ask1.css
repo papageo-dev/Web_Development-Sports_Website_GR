@@ -1,0 +1,249 @@
+/* Layout: float & width */
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: green;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+}
+
+header {
+	width: 100%;
+	height: 15%;
+	background-color: black;
+	position: absolute;
+	z-index: 30;
+}
+
+.pageHeader {
+	color: #800000;
+    text-align: center;
+    font-size: 35px;
+	font-weight: bold;
+    position: relative;
+}
+
+.allPagesMenu {
+	width: 12%;
+    height: 85%;
+	background: gray;
+	top: 15%;
+    left: 0;
+    position: absolute;
+    z-index: 7;
+}
+
+.myPages {
+    list-style-type: none;
+    color: black;
+    margin-left: -35px;
+    font-size: 20px;
+    text-align: left;
+    padding: auto;
+}
+
+.page {
+	list-style-type: none;
+	text-align: left;
+	font-size: 20px;
+	border-style: double;
+	border-color: #800000;
+	display: inline-block;
+	margin: 10px 20px;
+	padding: 0;
+}
+
+.backToMainMenu {
+	width: 12%;
+	height: 85%;
+	background: gray;
+	right: 0;
+    top: 15%;
+    position: absolute;
+    z-index: 6;
+}
+
+.backPage {
+	list-style-type: none;
+	text-align: left;
+	padding: 0;
+}
+
+.mainContent {
+    width: 80%;
+    height: 85%;
+    background: white;
+    position: absolute;
+    overflow: auto;
+    z-index: 5;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+}
+
+#articleHeader {
+    text-align: left;
+    font-weight: bold;
+    color: black;
+    font-size: 25px;
+}
+
+.myArticle {
+	font-size: 16px;
+	padding: 15px 40px;
+}
+
+.subContent {
+	font-size: 16px;
+	padding: 15px 40px;
+}
+
+.note2 {
+	color: blue;
+	font-size: 14px;
+	font-style: italic;
+}
+
+.image1 {
+  float: right;
+  width: 400px;
+  height: 271px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.image2 {
+  float: right;
+  width: 500px;
+  height: 275px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.image3 {
+  float: left;
+  width: 460px;
+  height: 287px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.image4 {
+  float: right;
+  width: 460px;
+  height: 281px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.tableImage {
+	height: 100;
+	width: 100;
+	}
+	
+.audio1 {
+	float: center;
+	display: inline-block;
+	margin: 10px 5px;;
+	}
+	
+.video1 {
+	float: left;
+	display: inline-block;
+	margin: 10px 5px;
+	}
+	
+#GreeceVolleyPar{
+	display: none;
+	}
+	
+#listHeader {
+	color: green;
+	font-size:21;
+	}	
+	
+#champsVolleyGR {
+	color: #008fb3;
+	font-size: 19;
+	display:none;
+	}
+
+#volleyTable {
+	border: 1px solid black;	
+	width: 60%;
+	text-align: center;
+	border: 1;
+	color: black;
+	font-style: normal;
+	}
+
+th, td {
+	border: 1px solid black;
+	padding: 5px;
+	text-align: left;
+}
+
+#volleyTableCaption {
+	font-weight: bold;
+	font-size:20px;
+	color: green;
+	}
+
+.note1 {
+	color: blue;
+	font-size: 25px;
+	font-style: italic;
+}
+
+#popularFootballLeagues {
+	color: #800000;
+	font-size: 16px;
+	font-style: normal;
+	}
+	
+#nationalLeagues {
+	list-style-type: upper-roman;
+	color: #00394d;
+	font-size: 16px;
+	font-style: italic;
+	}
+	
+footer {
+	width: 100%;
+    height: 5%;
+    top: 95%;
+	background-color: black;
+	position: absolute;
+    z-index: 40;
+	padding: 10 px;
+	text-align: center;
+	color: white;
+  
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    vertical-align: middle;
+    line-height: 5%;
+	clear: left;
+}
+
+
+
+
+
+

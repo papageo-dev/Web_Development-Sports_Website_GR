@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Βόλεϊ - Ομαδικά Αθλήματα</title>
+		<link rel="stylesheet" href="ask1.css"/>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="Web Development - Αssignment 1(2020)">
+        <meta name="papageo" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> <!-- Include jQuery from Google CDN -->
+		
+		<!-- Some JQuery Scripts-->
+		<script type="text/javascript">
+		
+		<!-- Animate -->
+		$(document).ready(function () {
+			$("#btn1").click(function () {
+				$("#volleyTable").animate({
+					width: '100%',
+				});
+				$("#volleyTableCaption").animate({
+					fontSize: '3em'
+				});
+		    });
+		});
+		
+		<!-- Show/Hide -->
+		$(document).ready(function () {
+			$("#btn2").click(function () {
+				$("#champsVolleyGR").toggle();
+		    });
+		});
+		
+		<!-- FadeIn/FadeOut -->
+		$(document).ready(function () {
+			$("#btn3").click(function () {
+				$("#GreeceVolleyPar").fadeToggle("slow");
+		    });
+		});
+		
+		<!-- Change CSS(s) -->
+		$(document).ready(function () {
+			$("#btn4").click(function () {
+				<!-- Change CSS 1 -->
+				$("#articleHeader").css({"text-align": "center", "color": "white", "background-color": "red", "text-decoration": "underline", "font-size": "200%"});
+				<!-- Change CSS 2 -->
+				$("#GenVolleyPar").css({"color": "blue", "font-style": "italic"});
+			});
+		});
+		</script>
+		
+		
+	</head>
+	
+  <body>
+	<header>
+		<h2 class="pageHeader">~ Ομαδικά Αθλήματα ~</h2>
+	</header>
+
+	<nav class="allPagesMenu">
+		<ul class="myPages">
+		<li class="page"><a href="index.html">Ποδόσφαιρο</a></li>
+		<li class="page"><a href="ask1Page2.html">Μπάσκετ</a></li>
+		<li class="page"><a href="ask1Page3.html">Βόλεϊ</a></li>
+		</ul>
+	</nav>	
+	<nav class="backToMainMenu">
+		<ul>
+		<li class="backPage"><a href="index.html">Επιστροφή στην αρχική σελίδα</a></li>
+		</ul>
+	</nav>
+		
+	<section class="mainContent">
+	
+		<article class="myArticle">
+			<h1 id="articleHeader">Βόλεϊ</h1>
+			<img class="image3" src="resources/img/volleyball_wallpaper.jpg" alt="volleyball_image1" title="Βόλεϊ"> <!-- Image3 -->
+			<p>Η πετοσφαίριση (κυπριακή διάλεκτος: πετόσφαιρα, αγγλικά: volleyball) είναι ένα ομαδικό ολυμπιακό άθλημα, το οποίο
+			   παίζεται από ανδρικές και γυναικείες ομάδες των έξι ατομων. </br> </br>
+			   Η πετοσφαίριση επινοήθηκε το 1895 από τον Αμερικανό καθηγητή Γουίλιαμ Μόργκαν, που εργαζόταν στο παράρτημα της ΧΑΝ (YMCA) του Χόουλιοκ,
+			   στην πολιτεία Μασαχουσέτη των ΗΠΑ. Προσπαθώντας να δημιουργήσει ένα ομαδικό παιχνίδι κλειστού χώρου, χωρίς τον κίνδυνο τραυματισμών,
+			   επινόησε το βόλεϊ. Αρχικά ονόμασε το παιχνίδι μιντονέτ. Το όνομα βόλεϊ δόθηκε λίγο αργότερα, έπειτα από έναν αγώνα επίδειξης, μάλλον 
+			   από τον Άλφρεντ Χάλστιντ.
+			</p>
+			
+			<br/><br/><br/><br/><br/><br/><br/>
+			
+			<!-- Button for jQuery function(Animate Table) -->
+			<div>
+				<input type="button" id="btn1" class="btn btn-default" value="Animate Table">
+			</div>
+			
+			<!-- Table with caption and titles -->
+			<table id="volleyTable">
+				<caption id = "volleyTableCaption">Διεθνής κανονισμοί βόλεϊ</caption>
+				<tr>
+					<th>No</th>
+					<th>Κανονισμός</th>		
+					<th>Ορισμός</th>
+					<th>Εξοπλισμός</th>
+			    </tr>
+				<tr>
+				    <td>1</td>
+					<td>Αριθμός και θέσεις παικτών:</td>
+					<td>6 παίκτες - Επιθετική ζώνη (μπροστά: αριστερά, κέντρο, δεξιά), Αμυντική ζώνη (πίσω: αριστερά, κέντρο, δεξιά).</td>
+					<td rowspan="2"><img class="tableImage" src="resources/img/volleyball_net.jpeg" alt="volleyball_image1" title="Δίχτυ Βόλεϊ"></td> <!-- TableImage1 -->
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Δίχτυ(Φιλέ):</td>
+					<td>Θέση: πάνω από την κεντρική γραμμή, μήκος: 9,5 μ., πλάτος: 1μ., ύψος: 2,43 για τους άνδρες και 2,24 για τις γυναίκες.</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Διάρκεια αγώνα και αριθμός σετ:</td>
+					<td>Δεν υπάρχει προκαθορισμένη διάρκεια/αριθμός σετ. Νικητής είναι αυτός που θα κερδίσει 3 σετ(πρώτος στους 25 πόντους).</td>
+					<td rowspan="2"><img class="tableImage" src="resources/img/Volleyball_ball_graphic.jpg" alt="volleyball_image2" title="Μπάλα Βόλεϊ"></img></td> <!-- TableImage2 -->
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Χρόνος κατοχής μπάλας:</td>
+					<td>8'' (δευτερόλεπτα)</td>
+				</tr>
+			</table>
+			
+			<br/>
+			
+			<!-- Button for jQuery function(Change CSS(s)) -->
+			<div>
+				<input type="button" id="btn4" class="btn btn-default" value="Change Style(CSS)">
+			</div>
+			
+			<br/>
+			
+			<img class="image4" src="resources/img/Volleyball_GR_Tournament.jpg" alt="volleyball_image2" title="Ελληνικό Πρωτάθλημα - Βόλεϊ ανδρών"> <!-- Image4 -->
+		    <p id="GenVolleyPar">Το νέο άθλημα διαδόθηκε πολύ γρήγορα, κυρίως μέσω των παραρτημάτων της Χ.Α.Ν. στις πολιτείες των ΗΠΑ και σε όλο
+			   τον κόσμο. Στην Ευρώπη μεταφέρθηκε κατά τη διάρκεια του Α΄ παγκοσμίου πολέμου από τους Αμερικανούς στρατιώτες. </br> </br>
+			   Αρχικά παιζόταν με διάφορες μπάλες. Το 1900 κατασκευάστηκε η πρώτη ειδική μπάλα βόλεϊ. Το 1947 ιδρύθηκε η 
+			   <a href="https://www.fivb.com/" target="_blank">Διεθνής Ομοσπονδία Πετοσφαίρισης</a> <!-- External Link 3-->
+			   (Fédération Internationale de Volleyball ή FIVB) στο Παρίσι, η οποία διαμόρφωσε ενιαίους διεθνείς κανονισμούς. 
+			   Το 1963 ιδρύθηκε και <a href="https://www.cev.eu/" target="_blank">Ευρωπαϊκή Συνομοσπονδία Πετοσφαίρισης</a> <!-- External Link 4-->
+			   (Confédération Européenne de Volleyball ή CEV).  
+			   Το 1964 αποτέλεσε σημαντική χρονιά για το βόλεϊ, αφού εντάχθηκε στο πρόγραμμα της Ολυμπιάδας του Τόκιο, τόσο για τους άνδρες όσο και για τις γυναίκες. </br> </br>
+			   Η "Εθνική ομάδα πετοσφαίρισης Ελλάδος ανδρών" (εναλλακτικά: Εθνική βόλεϊ ανδρών), είναι το αντιπροσωπευτικό συγκρότημα της Ελλάδας σε διεθνείς
+			   διοργανώσεις όπως οι Ολυμπιακοί Αγώνες, το Παγκόσμιο Πρωτάθλημα, το Ευρωπαϊκό πρωτάθλημα, η Παγκόσμια Λίγκα, η Ευρωπαϊκή Λίγκα, 
+			   οι Μεσογειακοί Αγώνες και άλλες τυχόν διεθνείς διοργανώσεις. Σήμερα, μετρά αρκετές διεθνείς επιτυχίες σε όλα τα τμήματα.
+		   </p>
+			
+			<br/>
+			
+			<!-- Button for jQuery function(Show/Hide List) -->
+			<div>
+				<input type="button" id="btn2" class="btn btn-default" value="Show/Hide List">
+			</div>
+			
+			<div id="champsVolleyGR"/>
+				<p id="listHeader">Ακολουθούν οι διεθνείς επιτυχίες της Εθνικής Ελλάδος Βόλεϊ: <br/>
+					<ul>
+						<li>Τρίτη η Εθνική εφήβων στο Λούκοβιτ (1971)</li>
+						<li>Τρίτη η Εθνική ανδρών στους Μεσογειακούς της Σμύρνης (1971)</li>
+						<li>Πέμπτη η Εθνική ανδρών στο Κύπελλο Άνοιξης (1972)</li>
+						<li>Πρώτη η Εθνική ΕΔ στο CISMS στη Θεσσαλονίκη (1973)</li>
+						<li>Πρώτη στο Κύπελλο Ανοίξεως το (1980)</li>
+						<li>Πρώτη στο Βαλκανικό(1980)</li>
+					</ul>
+				</p> 
+			</div>
+			
+			<br/>
+			
+			<!-- Button for jQuery function(FadeIn/FadeOut paragraph:"GreeceVolleyPar") -->
+			<div>
+				<input type="button" id="btn3" class="btn btn-default" value="FadeIn/FadeOut paragraph">
+			</div>
+			
+			<p id="GreeceVolleyPar">
+			   Στην Ελλάδα η πετοσφαίριση εισήχθη το 1922 από τον Πανιώνιο και τη ΧΑΝΘ. Πρώτος διδάξας του βόλεϊ στην Ελλάδα θεωρείται ο γυμναστής Λευκαδίτης 
+			   του Π.Γ.Σ. Στη συνέχεια διαδόθηκε και σε άλλους συλλόγους με αποτέλεσμα να προκηρυχτούν τα πρώτα πρωταθλήματα 1924-1926 με πρωταθλητή τον 
+			   Πανιώνιο το 1924, τον Π.Γ.Π το 1925 και τα Διδασκαλία το 1926. </br> </br>
+			   Το 1929-1932 δημιουργήθηκαν ομάδες βόλεϊ όπως η Νήαρ Ηστ, το Πανεπιστήμιο Αθηνών, ο Ιωνικός, ο Πειραϊκός, ο ΠΟΠ, και η ΕΑΠ Πατρών. 
+			   Ακολούθησε η δεκαετία 1930-1940 με τη μεγαλύτερη διάδοση του αθλήματος που ανακόπηκε από τον Β΄ Παγκόσμιο Πόλεμο και στη συνέχεια τον εμφύλιο.
+			   Το 1950-60 εμφανίστηκε πάλι το βόλεϊ με ελάχιστα τοπικά πρωταθλήματα. </br> </br>
+               Το 1961 διοργανώνεται το πρώτο Πανελλήνιο πρωτάθλημα με πρωταθλητή τον ΠΓΣ. </br> </br>
+               Το 1965 ιδρύεται από τον <a href="https://el.wikipedia.org/wiki/%CE%A3%CF%8D%CE%BD%CE%B4%CE%B5%CF%83%CE%BC%CE%BF%CF%82_%CE%95%CE%BB%CE%BB%CE%B7%CE%BD%CE%B9%CE%BA%CF%8E%CE%BD_%CE%93%CF%85%CE%BC%CE%BD%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CF%8E%CE%BD_%CE%91%CE%B8%CE%BB%CE%B7%CF%84%CE%B9%CE%BA%CF%8E%CE%BD_%CE%A3%CF%89%CE%BC%CE%B1%CF%84%CE%B5%CE%AF%CF%89%CE%BD" target="_blank">ΣΕΓΑΣ</a> <!-- External Link 5-->
+			   η Ελληνική Ομοσπονδία Αθλοπαιδιών (ΕΟΑΠ μπάσκετ- β.μ-χόκεϊ) και ακολουθεί μια στάσιμη περίοδος μέχρι το 1967. </br> </br>
+               Το 1968 αρχίζει μια συστηματική προσπάθεια ανάπτυξης του βόλεϊ από την ΕΟΑΠ και τον διορισθέντα Κυβερνητικό Επίτροπο (ΚΕ) σύνδεσμος της ΓΓΑ 
+			   με την ΕΟΑΠ Θεόδωρο Ανδρεάκο δ/ρα μηχανικό, πρωταθλητή του βόλεϊ του ΠΓΣ, μέλους της ΕΟΑΠ και του ΑΣΑΕΔ (Αθλητισμού ΕΔ).Το 1969 καθιερώνεται 
+			   για πρώτη φορά πρωτάθλημα εθνικής κατηγορίας και προσλαμβάνεται ο παγκοσμίου φήμης τεχνικός Ρουμάνος προπονητής Stefan Roman θεμελιωτής της 
+			   τεχνικής του βόλεϊ στην Ελλάδα και δημιουργούνται μόνιμα κλιμάκια με την Εθνική ομάδα να μετέχει στο κύπελλο Δυτικών χωρών για πρώτη φορά. </br> </br>
+		   	   Το 1970 αποτελεί το σημαντικότερο σταθμό για το ελληνικό βόλεϊ. Επιδεινώνονται οι προσπάθειες του ΚΕ Θεόδωρου Ανδρεάκου για τον διαχωρισμό του 
+			   βόλεϊ από το <a href="ask1Page2.html" target="_blank">μπάσκετ</a> <!-- Internal Link 3 -->
+			   σε ανεξάρτητες Ομοσπονδίες ΕΟΠΕ (Πετοσφαίρισης ) και ΕΟΚ ( Καλαθοσφαίρισης). Καθιερώνονται και τελούνται στην Αθήνα 
+			   οι πρώτοι Βαλκανικοί αγώνες με πρωτοφανή κοσμοσυρροή για το άθλημα. </br> </br>
+			   Εκπονείται από τον Θ. Ανδρεάκο και εγκρίνεται από το ΓΓΑ Κ. Ασλανίδη και μπαίνει σε εφαρμογή από την ΕΟΠΕ πενταετές σχέδιο ανάπτυξης 
+			   του βόλεϊ. Καθιερώνονται αθλητικά κίνητρα ( εισαγωγή διεθνών αθλητών στα ΑΕΙ), υποτροφίες στα μέλη των εθνικών ομάδων , ιδρύονται τοπικές 
+			   επιτροπές β.μ στην επαρχία, λειτουργεί σχολή προπονητών,κατασκευάζονται τα πρώτα κλειστά γήπεδα από τη ΓΓΑ και γενικά μπαίνουν τα θεμέλια 
+			   της σε βάθος διάδοσης του β.μ. </br>
+			</p>
+			
+		</article>
+		
+		<aside class="subContent">
+		
+			<a href="ask1Page3.html">Ανανέωση και επιστροφή στην κορυφή της σελίδας</a> <!-- Internal Link 4 -->
+		
+		<aside/>
+		
+	</section>
+
+	<footer>
+		<p class="copyright">Copyright 2020 &copy; Ομαδικά Αθλήματα</p>
+	</footer>
+
+  </body>
+  
+</html>

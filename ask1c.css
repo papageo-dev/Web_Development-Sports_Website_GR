@@ -1,0 +1,255 @@
+/* Layout: flexbox */
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: green;
+}
+
+header, footer {
+  flex: none; 
+}
+
+body {
+  display: flex;
+  height: 100%; 
+  flex-direction: column;
+}
+
+body {
+  display: flex;
+  flex: 1 0 auto; 
+  flex-direction: column;
+  padding: var(--space);
+}
+
+.mainContent {
+  margin-top: var(--space);
+}
+
+.allPagesMenu {
+  order: 0;
+}
+
+.allPagesMenu, .backToMainMenu {
+  padding: 1em;
+  border-radius: 3px;
+  background: rgba(147, 128, 108, 0.1);
+}
+
+@media (--break-lg) {
+body {
+    flex-direction: row;
+  }
+  .mainContent {
+    flex: 1;
+    padding: 0 var(--space-lg);
+    margin: 0;
+  }
+  .allPagesMenu, .backToMainMenu {
+    flex: 0 0 12em;
+  }
+}
+
+header {
+	background-color: black;
+}
+
+.pageHeader {
+	color: #800000;
+    text-align: center;
+    font-size: 35px;
+	font-weight: bold;
+    position: relative;
+}
+
+.allPagesMenu {
+	background: gray;
+}
+
+.myPages {
+    list-style-type: none;
+    color: black;
+    margin-left: -35px;
+    font-size: 20px;
+    text-align: left;
+    padding: auto;
+}
+
+.page {
+	list-style-type: none;
+	text-align: left;
+	font-size: 20px;
+	border-style: double;
+	border-color: #800000;
+	display: inline-block;
+	margin: 10px 20px;
+	padding: 0;
+}
+
+.backToMainMenu {
+	order: 1;
+	background: gray;
+}
+
+.backPage {
+	list-style-type: none;
+	text-align: left;
+	padding: 0;
+}
+
+.mainContent {
+    background: white;
+}
+
+#articleHeader {
+    text-align: left;
+    font-weight: bold;
+    color: black;
+    font-size: 25px;
+}
+
+.myArticle {
+	font-size: 16px;
+	padding: 15px 40px;
+}
+
+.subContent {
+	font-size: 16px;
+	padding: 15px 40px;
+}
+
+.note2 {
+	color: blue;
+	font-size: 14px;
+	font-style: italic;
+}
+
+.image1 {
+  float: right;
+  width: 400px;
+  height: 271px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.image2 {
+  float: right;
+  width: 500px;
+  height: 275px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.image3 {
+  float: left;
+  width: 460px;
+  height: 287px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.image4 {
+  float: right;
+  width: 460px;
+  height: 281px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.tableImage {
+	height: 100;
+	width: 100;
+	}
+	
+.audio1 {
+	float: center;
+	display: inline-block;
+	margin: 10px 5px;;
+	}
+	
+.video1 {
+	float: left;
+	display: inline-block;
+	margin: 10px 5px;
+	}
+	
+#GreeceVolleyPar{
+	display: none;
+	}
+	
+#listHeader {
+	color: green;
+	font-size:21;
+	}	
+	
+#champsVolleyGR {
+	color: #008fb3;
+	font-size: 19;
+	display:none;
+	}
+
+#volleyTable {
+	border: 1px solid black;	
+	width: 60%;
+	text-align: center;
+	border: 1;
+	color: black;
+	font-style: normal;
+	}
+
+th, td {
+	border: 1px solid black;
+	padding: 5px;
+	text-align: left;
+}
+
+#volleyTableCaption {
+	font-weight: bold;
+	font-size:20px;
+	color: green;
+	}
+
+.note1 {
+	color: blue;
+	font-size: 25px;
+	font-style: italic;
+}
+
+#popularFootballLeagues {
+	color: #800000;
+	font-size: 16px;
+	font-style: normal;
+	}
+	
+#nationalLeagues {
+	list-style-type: upper-roman;
+	color: #00394d;
+	font-size: 16px;
+	font-style: italic;
+	}
+
+footer {
+	background-color: black;
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    vertical-align: middle;
+    line-height: 5%;
+	clear: left;
+}
+
+
+	
+
+
+	
