@@ -11,7 +11,7 @@ A website(with 3 html pages) on the subject of team sports, in Greek language.
 1)Each of the HTML pages (index.html, ask1Page2.html and ask1Page3.html) refers to a sport:                                                                                        
 - index.html("Football")                                                                                                                                                       
 - ask1Page2.html("Basketball")                                                                                                                                                  
-- ask1Page3.html("Valleyball")                                                                                                                                                    
+- ask1Page3.html("Volleyball")                                                                                                                                                    
 
 2)Each of the external CSS files contains a layout method and similar CCS style, rules and elements:                                                                               
 - ask1.css("float & width")                                                                                                                                                     
